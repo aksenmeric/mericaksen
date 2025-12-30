@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Ph.D. Candidate Test"
+title                    : "Ph.D. Candidate"
 title_separator          : "-"
 name                     : &name "Mustafa Meric Aksen"
 description              : &description "personal description"
