@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Ph.D. Candidate TESTTESTTEST"
+title                    : "Mustafa Meric Aksen, Ph.D. Candidate"
 title_separator          : "-"
 name                     : &name "Mustafa Meric Aksen"
-description              : &description "personal description"
+description              : &description "Research Assisstant"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
