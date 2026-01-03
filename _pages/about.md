@@ -18,17 +18,20 @@ These models are used to improve resource characterization, feasibility assessme
 Upcoming focus:
 I am particularly interested in developing physics-informed machine learning models using data from high-fidelity numerical models.
 
----
-layout: archive
-title: "Portfolio"
-permalink: /portfolio/
-author_profile: true
----
+<hr />
+
+## Selected Research Portfolio
 
 {% include base_path %}
 
+<div class="entries-list">
+  {% for post in site.portfolio %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<p style="margin-top:1rem;">
+  <a class="btn btn--primary" href="{{ '/portfolio/' | relative_url }}">View full portfolio</a>
+</p>
+
 
