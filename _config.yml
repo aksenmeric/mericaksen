@@ -24,7 +24,6 @@ author:
   avatar           : "profile.png"
   name             : "Mustafa Meric Aksen"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
   bio              : "Physics-based (HPC and LES) and data-driven modeling for renewable energy systems."
   location         : "NYC, NY"
   employer         : "Stony Brook University"
