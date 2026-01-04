@@ -13,7 +13,7 @@ I develop site-specific, multi-scale numerical models that resolve turbulence an
 
 **Upcoming focus:** I am particularly interested in developing physics-informed machine learning models using data generated from high-fidelity numerical simulations, with applications to tidal farm design and optimization.
 
-<hr style="margin: 3rem 0;">
+--
 
 ## Selected Research Portfolio
 
