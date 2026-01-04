@@ -21,12 +21,6 @@ I am particularly interested in developing physics-informed machine learning mod
 
 ## Selected Research Portfolio
 
-<p style="margin: 0 0 1rem 0;">
-  <a class="btn btn--primary" href="{{ '/portfolio/' | relative_url }}">
-    View full research portfolio
-  </a>
-</p>
-
 <div class="grid__wrapper">
   {% assign my_portfolio = site.portfolio | sort: "date" | reverse %}
   {% for post in my_portfolio limit:2 %}
