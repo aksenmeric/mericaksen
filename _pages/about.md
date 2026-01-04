@@ -12,11 +12,8 @@ I am a Ph.D. candidate in Civil Engineering at Stony Brook University, where I s
 I develop site-specific, multi-scale numerical models that resolve turbulence and downscale them for accurate flow–structure interaction in tidal farms located in energetic tidal and riverine environments. These models integrate high-resolution geospatial data and field observations, and are used to improve resource characterization, feasibility assessment, and performance evaluation of pre-commercial MHK technologies.
 
 **Upcoming focus:** I am particularly interested in developing physics-informed machine learning models using data generated from high-fidelity numerical simulations, with applications to tidal farm design and optimization.
-
 --
-
 ## Selected Research Portfolio
-
 <div class="grid__wrapper">
   {% assign my_portfolio = site.portfolio | sort: "date" | reverse %}
   {% for post in my_portfolio limit:2 %}
