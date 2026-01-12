@@ -1,0 +1,29 @@
+{% assign p = include.post %}
+
+<div class="{{ include.type | default: 'list' }}__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+
+    <div class="archive__item-teaser">
+      {% if p.teaser_video %}
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="{{ p.teaser_poster | default: '' }}"
+               style="width:100%; height:auto; display:block; border-radius:8px;">
+          <source src="{{ p.teaser_video | relative_url }}" type="video/mp4">
+        </video>
+      {% elsif p.header.teaser %}
+        <img src="{{ p.header.teaser | relative_url }}" alt="">
+      {% endif %}
+    </div>
+
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    </h2>
+
+    {% if p.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ p.excerpt | markdownify | strip_html | truncate: 140 }}
+      </p>
+    {% endif %}
+
+  </article>
+</div>
