@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-I am a Ph.D. candidate in Civil Engineering at Stony Brook University, where I specialize in high-fidelity computational modeling of environmental fluid dynamics and renewable energy systems. I work within Dr. Ali Khosronejad’s research group and the U.S. Department of Energy–funded Atlantic Marine Energy Center (AMEC).
+I am a Ph.D. candidate in Civil Engineering at Stony Brook University, where I specialize in high-fidelity computational modeling of environmental fluid dynamics and renewable energy systems. I work within Dr. Ali Khosronejad’s research group and the U.S. Department of Energy–funded Atlantic Marine Energy Center (AMEC). AAA
 
 **Research focus and methods:** My research expertise spans computational fluid dynamics, large-eddy simulations (LES), high-performance computing (HPC), and physics-guided machine learning for marine hydrokinetic (MHK) turbines and farms.
 
