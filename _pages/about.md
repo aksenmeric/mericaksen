@@ -15,11 +15,19 @@ I develop site-specific, multi-scale numerical models that resolve turbulence an
 
 ## Research
 
+# <div class="grid__wrapper">
+#  {% assign my_portfolio = site.portfolio | sort: "date" | reverse %}
+#  {% for post in my_portfolio limit:2 %}
+#    {% include archive-single.html type="grid" %}
+#  {% endfor %}
+# </div>
+
 <div class="grid__wrapper">
   {% assign my_portfolio = site.portfolio | sort: "date" | reverse %}
   {% for post in my_portfolio limit:2 %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single-video.html type="grid" post=post %}
   {% endfor %}
 </div>
+
 
 
