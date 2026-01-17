@@ -5,9 +5,9 @@
 
     <div class="archive__item-teaser">
       {% if p.teaser_video %}
-        <video autoplay muted loop playsinline preload="metadata"
-               poster="{{ p.teaser_poster | default: '' }}"
-               style="width:100%; height:auto; display:block; border-radius:8px;">
+        <video class="archive__item-teaser-video"
+               autoplay muted loop playsinline preload="metadata"
+               poster="{{ p.teaser_poster | default: '' | relative_url }}">
           <source src="{{ p.teaser_video | relative_url }}" type="video/mp4">
         </video>
       {% elsif p.header.teaser %}
