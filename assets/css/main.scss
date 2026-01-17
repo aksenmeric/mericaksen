@@ -39,3 +39,25 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* ============================================================
+   Portfolio / Research video teasers (Minimal Mistakes fix)
+   ============================================================ */
+
+.archive__item-teaser {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.archive__item-teaser img,
+.archive__item-teaser-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
